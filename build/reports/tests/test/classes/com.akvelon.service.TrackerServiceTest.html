@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TrackerServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TrackerServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.akvelon.service.html">com.akvelon.service</a> &gt; TrackerServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.227s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">addNewOrUpdateTask()</td>
+<td class="success">0.089s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">addNewProject()</td>
+<td class="success">0.123s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteProject()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteTask()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">projectList()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">taskList()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProjectList()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateProject()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>01:36:49.960 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:36:49.969 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:36:49.991 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.akvelon.service.TrackerServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:36:50.001 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.akvelon.service.TrackerServiceTest], using SpringBootContextLoader
+01:36:50.004 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.akvelon.service.TrackerServiceTest]: class path resource [com/akvelon/service/TrackerServiceTest-context.xml] does not exist
+01:36:50.005 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.akvelon.service.TrackerServiceTest]: class path resource [com/akvelon/service/TrackerServiceTestContext.groovy] does not exist
+01:36:50.005 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.akvelon.service.TrackerServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:36:50.006 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.akvelon.service.TrackerServiceTest]: TrackerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:36:50.040 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.akvelon.service.TrackerServiceTest]
+01:36:50.090 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [F:\Denis\Documents\GitHub\TestTaskTracker\build\classes\java\main\com\akvelon\TaskTracker.class]
+01:36:50.091 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.akvelon.TaskTracker for test class com.akvelon.service.TrackerServiceTest
+01:36:50.168 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.akvelon.service.TrackerServiceTest]: using defaults.
+01:36:50.168 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:36:50.189 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5a4d7704, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5a17ef25, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@127062b4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@616a28ce, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@50ae86b0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35a52547, org.springframework.test.context.transaction.TransactionalTestExecutionListener@24518485, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@144de499, org.springframework.test.context.event.EventPublishingTestExecutionListener@30f26ba6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c61efe2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@43c2347, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7fae7675, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c228d7d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7f9f67e4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1adc454b]
+01:36:50.230 [Test worker] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
+01:36:50.233 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.0)
+
+2022-02-06 01:36:50.438  INFO 17600 --- [    Test worker] com.akvelon.service.TrackerServiceTest   : Starting TrackerServiceTest using Java 11.0.12 on DESKTOP-B2MDQGC with PID 17600 (started by Denis in F:\Denis\Documents\GitHub\TestTaskTracker)
+2022-02-06 01:36:50.439  INFO 17600 --- [    Test worker] com.akvelon.service.TrackerServiceTest   : No active profile set, falling back to default profiles: default
+2022-02-06 01:36:51.192  INFO 17600 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-06 01:36:51.245  INFO 17600 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2022-02-06 01:36:51.753  INFO 17600 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-06 01:36:51.919  INFO 17600 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-06 01:36:51.936  INFO 17600 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.1.0 by Redgate
+2022-02-06 01:36:51.936  INFO 17600 --- [    Test worker] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:postgresql://127.0.0.1:5432/akvelon (PostgreSQL 13.3)
+2022-02-06 01:36:51.971  INFO 17600 --- [    Test worker] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.019s)
+2022-02-06 01:36:51.977  INFO 17600 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Current version of schema &quot;public&quot;: 2
+2022-02-06 01:36:51.977  INFO 17600 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Schema &quot;public&quot; is up to date. No migration necessary.
+2022-02-06 01:36:52.121  INFO 17600 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-06 01:36:52.171  INFO 17600 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-02-06 01:36:52.345  INFO 17600 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-06 01:36:52.453  INFO 17600 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-06 01:36:53.040  INFO 17600 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-06 01:36:53.674  WARN 17600 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-06 01:36:54.563  INFO 17600 --- [    Test worker] com.akvelon.service.TrackerServiceTest   : Started TrackerServiceTest in 4.329 seconds (JVM running for 5.34)
+2022-02-06 01:36:54.716  INFO 17600 --- [    Test worker] com.akvelon.service.TrackerService       : Project{id=0, name=' Project name for testing', startDate=Sun Feb 06 01:36:54 MSK 2022, completeDate=Sun Mar 20 00:00:00 MSK 2022, priority=10, projectStatus=Active, tasks=[]}
+Hibernate: 
+    /* insert com.akvelon.model.Project
+        */ insert 
+        into
+            tracker.projects
+            (complete_date, project_name, p_priority, project_status, start_date) 
+        values
+            (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        currval('tracker.projects_id_seq')
+Hibernate: 
+    select
+        project0_.id as id1_0_0_,
+        project0_.complete_date as complete2_0_0_,
+        project0_.project_name as project_3_0_0_,
+        project0_.p_priority as p_priori4_0_0_,
+        project0_.project_status as project_5_0_0_,
+        project0_.start_date as start_da6_0_0_ 
+    from
+        tracker.projects project0_ 
+    where
+        project0_.id=?
+Hibernate: 
+    select
+        project0_.id as id1_0_0_,
+        project0_.complete_date as complete2_0_0_,
+        project0_.project_name as project_3_0_0_,
+        project0_.p_priority as p_priori4_0_0_,
+        project0_.project_status as project_5_0_0_,
+        project0_.start_date as start_da6_0_0_ 
+    from
+        tracker.projects project0_ 
+    where
+        project0_.id=?
+Hibernate: 
+    select
+        project0_.id as id1_0_0_,
+        project0_.complete_date as complete2_0_0_,
+        project0_.project_name as project_3_0_0_,
+        project0_.p_priority as p_priori4_0_0_,
+        project0_.project_status as project_5_0_0_,
+        project0_.start_date as start_da6_0_0_ 
+    from
+        tracker.projects project0_ 
+    where
+        project0_.id=?
+Hibernate: 
+    select
+        project0_.id as id1_0_0_,
+        project0_.complete_date as complete2_0_0_,
+        project0_.project_name as project_3_0_0_,
+        project0_.p_priority as p_priori4_0_0_,
+        project0_.project_status as project_5_0_0_,
+        project0_.start_date as start_da6_0_0_ 
+    from
+        tracker.projects project0_ 
+    where
+        project0_.id=?
+Hibernate: 
+    select
+        project0_.id as id1_0_0_,
+        project0_.complete_date as complete2_0_0_,
+        project0_.project_name as project_3_0_0_,
+        project0_.p_priority as p_priori4_0_0_,
+        project0_.project_status as project_5_0_0_,
+        project0_.start_date as start_da6_0_0_ 
+    from
+        tracker.projects project0_ 
+    where
+        project0_.id=?
+Hibernate: 
+    select
+        project0_.id as id1_0_0_,
+        project0_.complete_date as complete2_0_0_,
+        project0_.project_name as project_3_0_0_,
+        project0_.p_priority as p_priori4_0_0_,
+        project0_.project_status as project_5_0_0_,
+        project0_.start_date as start_da6_0_0_ 
+    from
+        tracker.projects project0_ 
+    where
+        project0_.id=?
+Hibernate: 
+    select
+        tasks0_.project_id as project_6_1_0_,
+        tasks0_.id as id1_1_0_,
+        tasks0_.id as id1_1_1_,
+        tasks0_.description as descript2_1_1_,
+        tasks0_.task_name as task_nam3_1_1_,
+        tasks0_.t_priority as t_priori4_1_1_,
+        tasks0_.project_id as project_6_1_1_,
+        tasks0_.task_status as task_sta5_1_1_ 
+    from
+        tracker.tasks tasks0_ 
+    where
+        tasks0_.project_id=?
+Hibernate: 
+    /* delete com.akvelon.model.Project */ delete 
+        from
+            tracker.projects 
+        where
+            id=?
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at 6 февр. 2022 г., 1:36:55</p>
+</div>
+</div>
+</body>
+</html>

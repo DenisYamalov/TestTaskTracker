@@ -1,0 +1,29 @@
+
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: app
+    depends_on:
+      - db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/akvelon
+      - POSTGRES_USER=akvelon
+      - POSTGRES_PASSWORD=akvelon
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=validate
+    ports:
+      - 8080:8080
+  db:
+    image: 'postgres:13.3'
+    container_name: db
+    environment:
+      - POSTGRES_USER=akvelon
+      - POSTGRES_PASSWORD=akvelon
+      - POSTGRES_DB=akvelon
+    ports:
+      - 5432:5432
+    volumes:
+      - app-data:/var/lib/postgresql/data
+volumes:
+  app-data:
